@@ -6,7 +6,7 @@
             background-size: cover;
             color: white;
             font-family: 'JetBrains Mono', monospace;
-            font-size: 15px;
+            font-size: 13px;
             margin: 0;
             padding: 0;
             text-align: center;
@@ -179,6 +179,7 @@
             font-size: 2.5;
         }
         .p {
+            color: white;
             margin: 10px 0;
             line-height: 1.5;
             font-size: 15px;
@@ -203,11 +204,6 @@
             border-image: linear-gradient(45deg, gold, silver, #FFD700);
             border-image-slice: 1;
         }
-        .buttons{
-            width: 70px;
-            height: 50px;
-        }
-
         .achievement-icon{
             opacity: 0;
     letter-spacing: -2px;
@@ -217,12 +213,6 @@
 @keyframes classyFade {
     0% { opacity: 0; letter-spacing: -2px; }
     100% { opacity: 1; letter-spacing: 1px; }
-
-            
-        }
-        .Division {
-            display: flex;
-            align-items: center;
         }
         .shadow {
             animation:  
